@@ -121,6 +121,30 @@ body {
     text-align: right;
 }
 
+.action {
+    padding: 145px;
+}
+
+.action .container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 15px;
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action-button button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px #f9faf8 solid;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
