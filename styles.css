@@ -105,6 +105,22 @@ body {
     text-align: center;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 145px 225px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-signature {
+    font-weight: bold;
+    text-align: right;
+}
+
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
