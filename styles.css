@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 125px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    margin-top: auto;
+}
